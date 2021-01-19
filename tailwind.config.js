@@ -1,0 +1,60 @@
+module.exports = {
+  future: {
+    // removeDeprecatedGapUtilities: true,
+    // purgeLayersByDefault: true,
+  },
+  purge: [
+    './components/**/*.{vue,js}',
+    './layouts/**/*.vue',
+    './pages/**/*.vue',
+    './plugins/**/*.{js,ts}',
+    './nuxt.config.{js,ts}',
+  ],
+  theme: {
+    extend: {
+      fontFamily: {
+        sans: ['Roboto', 'serif'],
+        serif: ['Roboto Condensed', 'sans-serif'],
+      },
+      fontSize: {
+        xs: '.75rem',
+        sm: '.875rem',
+        tiny: '.875rem',
+        base: '1rem',
+        lg: '1.125rem',
+        '1xl': '1.25rem',
+        '2xl': '1.5rem',
+        '3xl': '1.875rem',
+        '4xl': '2.25rem',
+        '5xl': '3rem',
+        '6xl': '4rem',
+        '7xl': '5rem',
+        '8xl': '6rem',
+        '9xl': '7rem',
+        '10xl': '8rem',
+        '11xl': '9rem',
+        '12xl': '10rem',
+      },
+      screens: {
+        sm: { min: '640px', max: '767px' },
+        md: { min: '768px', max: '1023px' },
+        lg: { min: '1024px' },
+      },
+
+      colors: {
+        'white-ud': '#ffffff',
+        'black-ud': '#000000',
+        'nileBlue-ud': '#1c4155',
+        'skyBlue-ud': '#9cc2d7',
+        'roseRed-ud': '#bb1515',
+        'pink-ud': '#ffefef',
+        'lightGrey-50-ud': '#fafafa',
+        'lightGrey-100-ud': '#f2f2f2',
+        'darkGrey-50-ud': '#5f5f5f',
+        'darkGrey-100-ud': '#333333',
+      },
+    },
+  },
+  variants: {},
+  plugins: [require('tailwindcss-debug-screens')],
+}
