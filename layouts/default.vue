@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full lg:max-w-7xl mx-auto debug-screens">
+  <div class="w-full lg:max-w-7xl mx-auto">
     <!-- header -->
     <header>
       <TheHero>
