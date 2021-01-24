@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full lg:max-w-7xl mx-auto">
+  <div class="max-w-7xl mx-auto">
     <!-- header -->
     <header>
       <TheHero>
