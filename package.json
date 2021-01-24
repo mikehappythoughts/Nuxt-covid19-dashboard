@@ -14,8 +14,6 @@
     "@nuxtjs/axios": "^5.12.2",
     "@nuxtjs/pwa": "^3.0.2",
     "core-js": "^3.6.5",
-    "frappe-charts": "^1.5.6",
-    "frappe-gantt": "^0.5.0",
     "install": "^0.13.0",
     "nuxt": "^2.14.6",
     "vue2-frappe": "^1.2.3"
