@@ -1,0 +1,22 @@
+.o-footer {
+  min-height: 124px;
+  background-color: $nileBlue;
+  color: $secondary;
+  display: flex;
+  align-items: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+
+  &__right-content {
+    text-align: left;
+
+    @media (min-width: 768px) {
+      text-align: right;
+    }
+
+    p {
+      text-transform: uppercase;
+      font-weight: $bold;
+    }
+  }
+}

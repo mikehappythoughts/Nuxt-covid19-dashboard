@@ -1,0 +1,21 @@
+// bootstrap grid
+@import '../../node_modules/bootstrap-4-grid/scss/grid/bootstrap-grid';
+
+// fonts
+@import './scss/fonts/fonts';
+
+// base and config
+@import './scss/variables';
+@import './scss/base';
+
+// layouts
+@import './scss/components/TheHeader';
+@import './scss/components/TheFooter';
+
+// components
+@import './scss/components/TheArticles';
+@import './scss/components/TheChart';
+@import './scss/components/TheStatistics';
+
+// pages
+@import './scss/pages/home';

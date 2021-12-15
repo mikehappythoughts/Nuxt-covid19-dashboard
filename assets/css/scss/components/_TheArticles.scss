@@ -1,0 +1,14 @@
+.c-article {
+  padding-top: $vertPadding;
+  padding-bottom: $vertPadding;
+
+  &__item {
+    text-align: center;
+    & h3 {
+      margin-bottom: 0;
+    }
+    & p {
+      color: $darkGrey;
+    }
+  }
+}

@@ -1,0 +1,20 @@
+.o-header {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(~/assets/img/header-bkg-mobile.jpg);
+  height: 63vh;
+  background-position: right 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: $secondary;
+  display: flex;
+  align-items: center;
+
+  & h1 {
+    text-transform: uppercase;
+    margin-bottom: 0;
+  }
+
+  & h2 {
+    margin: 0;
+  }
+}
