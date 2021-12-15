@@ -2,8 +2,7 @@
   {
     "name": "index",
     "path": "/",
-    "component": "/Users/unstopable4/Desktop/NUXT projects/Nuxt-Tailwind-Vuex-covid-dashboard/pages/index.vue",
-    "chunkName": "pages/index",
-    "_name": "_61353c47"
+    "component": "/Users/unstopable4/Desktop/NUXT projects/Nuxt-covid19-dashboard/pages/index.vue",
+    "chunkName": "pages/index"
   }
 ]
