@@ -1,4 +1,4 @@
-# covid_dashboard
+# Nuxt-covid19-dashboard
 
 Is a standalone PWA app which shows you the latest Covid figures in The UK. The data is taken straight from the gov.uk covid api and displayed in this app.
 
