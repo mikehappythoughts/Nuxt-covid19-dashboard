@@ -61,7 +61,7 @@ export default {
   build: {},
 
   router: {
-    base: '/covid/',
+    base: '/projects/covid/',
   },
 
   publicRuntimeConfig: {
