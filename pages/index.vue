@@ -1,5 +1,5 @@
 <template>
-  <main>
+  <main v-if="isLoading">
     <TheStatistics />
     <TheChart />
     <TheArticles />
@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import { defineComponent } from '@nuxtjs/composition-api'
+import { defineComponent, onMounted, ref } from '@nuxtjs/composition-api'
 import useActions from '../composables/useActions'
 import TheArticles from '../components/TheArticles.vue'
 import TheStatistics from '../components/TheStatistics.vue'
@@ -18,9 +18,17 @@ export default defineComponent({
   setup() {
     const { fetch } = useActions()
 
+    const isLoading = ref(false)
+
     fetch()
 
-    return {}
+    onMounted(() => {
+      isLoading.value = !isLoading.value
+    })
+
+    return {
+      isLoading,
+    }
   },
 })
 </script>
