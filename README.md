@@ -1,8 +1,20 @@
-# Nuxt-covid19-dashboard
+# Nuxt Covid 19 dashboard - prototype landing page
 
-Is a standalone PWA app which shows you the latest Covid figures in The UK. The data is taken straight from the gov.uk covid api and displayed in this app.
+![Desktop and mobile screenshots of Nuxt Covid 19 dashboard](https://www.mikehappythoughts.co.uk/gitimages/covid.jpg)
 
-## Build Setup
+## Description
+
+The Nuxt Covid 19 dashboard is a accessable and responsive page using the **Nuxt js framework**. It also uses **SASS with a BEM approach** for the styling of this page. All of the data used in this page is consumed from the **gov.uk covid 19 api endpoint**.
+
+## Tech Stack
+
+Nuxt js, Sass, axios, Vue2 Frappe for the chart
+
+## Documentation
+
+For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
+
+## Getting Started
 
 ```bash
 # install dependencies
@@ -18,5 +30,3 @@ $ npm run start
 # generate static project
 $ npm run generate
 ```
-
-For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
