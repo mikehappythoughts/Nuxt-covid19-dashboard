@@ -4,7 +4,7 @@
 
 ## Description
 
-The Nuxt Covid 19 dashboard is a accessable and responsive page using the **Nuxt js framework**. It also uses **SASS with a BEM approach** for the styling of this page. All of the data used in this page is consumed from the **gov.uk covid 19 api endpoint**.
+The Nuxt Covid 19 dashboard is an accessable and responsive page using the **Nuxt js framework**. It also uses **SASS with a BEM approach** for the styling of this page. All of the data used in this page is consumed from the **gov.uk covid 19 api endpoint**.
 
 ## Tech Stack
 
