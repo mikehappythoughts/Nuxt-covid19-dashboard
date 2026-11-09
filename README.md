@@ -1,7 +1,5 @@
 # Nuxt Covid 19 dashboard - prototype landing page
 
-![Desktop and mobile screenshots of Nuxt Covid 19 dashboard](https://www.mikehappythoughts.co.uk/gitimages/covid.jpg)
-
 ## Description
 
 The Nuxt Covid 19 dashboard is an accessable and responsive page using the **Nuxt js framework**. It also uses **SASS with a BEM approach** for the styling of this page. All of the data used in this page is consumed from the **gov.uk covid 19 api endpoint**.
